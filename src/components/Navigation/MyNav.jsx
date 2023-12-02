@@ -37,13 +37,20 @@ const MyNav = () => {
                         <MDBNavbarItem>
                             <MDBNavbarLink href='#about'>About</MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem to='/portfolio'>
+                        
+                    </LinkContainer>
+                    <LinkContainer to='/portfolio'>
+                        <MDBNavbarItem>
                             <MDBNavbarLink href='#portfolio'>Portfolio</MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem to='/resume'>
+                    </LinkContainer>
+                    <LinkContainer to='/resume'>
+                    <MDBNavbarItem>
                             <MDBNavbarLink href='#resume'>Résumé</MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem to='/contact'>
+                    </LinkContainer>
+                    <LinkContainer to='/contact'>
+                    <MDBNavbarItem>
                             <MDBNavbarLink href='#contact'>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
                     </LinkContainer>
