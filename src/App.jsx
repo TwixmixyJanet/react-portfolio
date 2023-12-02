@@ -3,13 +3,13 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 // import reactLogo from './assets/react.svg' - need new logo?
 // import viteLogo from '/vite.svg' - need new logo?
-import MyNav from './components/MyNav';
-import Home from './pages/Home';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
-import Footer from './components/Footer';
+import MyNav from './components/Navigation/MyNav';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css'
 
 function App() {
