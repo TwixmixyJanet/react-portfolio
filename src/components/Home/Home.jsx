@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBContainer } from 'mdb-react-ui-kit';
-import splash from '../../assets/splash.png';
+import splash from '../../assets/images/splash.jpg';
 
 const Home = () => {
     return (
