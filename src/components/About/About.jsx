@@ -32,3 +32,5 @@ const About = () => {
         </MDBContainer>
     )
 }
+
+export default About;
