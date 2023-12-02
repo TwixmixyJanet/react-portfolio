@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
 import './About.css';
-import headshot from '../../assets/images/headshot.jpeg';
+import headshot from '../../assets/images/headshot.jpg';
 
 const About = () => {
     return (
