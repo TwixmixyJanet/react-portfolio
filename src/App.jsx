@@ -16,7 +16,7 @@ function App() {
   return (
     <>
         <MyNav />
-        <main className="mx-3">
+        <main >
           <Outlet />
         </main>
         <Footer />

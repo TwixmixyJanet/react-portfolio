@@ -4,7 +4,7 @@ import splash from '../../assets/images/splash.jpg';
 const Home = () => {
     return (
         <MDBContainer fluid className="text-center bkgrd">
-            <img src={splash} alt='splash' className='splash img-fluid rounded-pill shadow-4-strong'/>
+            <img src={splash} alt='splash' className='splash img-fluid shadow-4-strong'/>
         </MDBContainer>
     )
 };
