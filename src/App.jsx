@@ -2,6 +2,13 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 // import reactLogo from './assets/react.svg' - need new logo?
 // import viteLogo from '/vite.svg' - need new logo?
+import MyNav from './components/MyNav';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
