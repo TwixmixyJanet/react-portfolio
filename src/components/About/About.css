@@ -1,0 +1,19 @@
+.bkgrd {
+    background: rgb(29, 180, 252);
+    background: linear-gradient(90deg, rgba(29, 180, 252, 1) 0%, rgba(29, 252, 180, 1) 100%);
+    /* background: radial-gradient(circle, rgb(29, 180, 252) 0%, rgb(29, 255, 180) 100%); */
+}
+
+.card-picture {
+    width: 300px;
+    height: 100%;
+    max-width: calc(100% - 20px);
+    padding: 2px;
+}
+
+.card-text {
+    width: 550px;
+    height: auto;
+    max-width: calc(100% - 20px);
+    padding: 2px;
+}
