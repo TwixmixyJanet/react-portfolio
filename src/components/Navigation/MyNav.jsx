@@ -18,7 +18,7 @@ const MyNav = () => {
 
     return (
         <>
-        <MDBNavbar expand='sm' className='p-4'>
+        <MDBNavbar expand='sm' dark className='p-4'>
             <MDBContainer fluid>
                 <MDBNavbarToggler type='button'
                 data-target='#navbarTogglerDemo01'
