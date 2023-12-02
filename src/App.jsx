@@ -1,4 +1,5 @@
-import { useState } from 'react'
+// import { useState } from 'react' - is this still needed?
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 // import reactLogo from './assets/react.svg' - need new logo?
 // import viteLogo from '/vite.svg' - need new logo?
@@ -12,7 +13,6 @@ import Footer from './components/Footer';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
