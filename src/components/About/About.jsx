@@ -1,4 +1,3 @@
-import React from 'react';
 import { MDBContainer, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
 import './About.css';
 import headshot from '../../assets/images/headshot.jpg';
@@ -7,12 +6,12 @@ const About = () => {
     return (
         <MDBContainer fluid className='vh-100 bkgrd'>
             <div className="d-flex justify-content-center flex-column flex-sm-row">
-                <MDBCard className="order-sm-2 card-picture my-4 mx-auto mx-sm-0">
+                <MDBCard className="order-sm-1 card-picture my-5 mx-auto mx-sm-3">
                     <MDBCardImage variant="top" className='img-fluid rounded' src={headshot} alt='headshot' />
                 </MDBCard>
-                <MDBCard className="order-sm-1 my-4 card-text mx-auto mx-sm-0" border='dark'>
+                <MDBCard className="order-sm-2 my-4 card-text mx-auto mx-sm-3 bg-light">
                     <MDBCardBody>
-                        <MDBCardTitle className='text-center'>About Janet Webster</MDBCardTitle>
+                        <MDBCardTitle className='text-center text-uppercase'>About Me</MDBCardTitle>
                         <MDBCardText>
                             <p>
                             I'm a Full Stack MERN Software Engineer.<br />
