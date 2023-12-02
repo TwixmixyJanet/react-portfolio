@@ -9,7 +9,7 @@ import {
     MDBCardFooter,
     MDBBtn
 } from 'mdb-react-ui-kit';
-import resume from '../../assets/images/resume.svg';
+import resume from '../../assets/images/resume.png';
 
 const Resume = () => {
     const resumeUrl = '';
