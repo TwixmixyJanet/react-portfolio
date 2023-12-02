@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App.jsx'
+// import { BrowserRouter } from 'react-router-dom'
+import App from './App'
 import './index.css'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
+    {/* <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}> */}
       <App />
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
   </React.StrictMode>,
 );

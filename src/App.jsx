@@ -1,8 +1,5 @@
-// import { useState } from 'react' - is this still needed?
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-// import reactLogo from './assets/react.svg' - need new logo?
-// import viteLogo from '/vite.svg' - need new logo?
 import MyNav from './components/Navigation/MyNav';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -31,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
