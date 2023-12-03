@@ -26,9 +26,10 @@ const Resume = () => {
             <MDBRow className="row-cols-1 row-cols-md-2 g-3 pt-2">
                 <MDBCol>
                 <MDBCard className="m-3">
+                <MDBCardTitle><h2 className='text-uppercase'>Skills</h2></MDBCardTitle>
                     <MDBCardBody>
-                        <MDBCardTitle>Skills</MDBCardTitle>
-                        <MDBCardText>
+                        
+                        <MDBCardText className='d-flex flex-wrap justify-content-center align-items-center'>
                             <div>
                                 <MDBBtn className='m-1'>JavaScript</MDBBtn>
                                 <MDBBtn className='m-1'>MongoDB</MDBBtn>
@@ -84,9 +85,10 @@ const Resume = () => {
                 </MDBCol>
                 <MDBCol>
                 <MDBCard className="m-3">
+                <MDBCardTitle><h2 className='text-uppercase'>Resume</h2></MDBCardTitle>
                     <MDBCardImage className="img-thumbnail rounded-pill card-picture my-5 mx-auto" position='top' src={resume} />
                     <MDBCardBody>
-                        <MDBCardTitle><h1 className='text-uppercase'>Resume</h1></MDBCardTitle>
+                        
                         <MDBCardText>
                             <p>{downloadIcon}</p>
                         </MDBCardText>
