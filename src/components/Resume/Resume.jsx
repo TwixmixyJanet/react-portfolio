@@ -11,7 +11,7 @@ import {
 import resume from '../../assets/images/resume.png';
 
 const Resume = () => {
-    const resumeUrl = '';
+    const resumeUrl = '/assets/Resume.pdf';
     return (
         <MDBContainer fluid className='bkgrd'>
             <div className="d-flex justify-content-center">
