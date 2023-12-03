@@ -85,10 +85,9 @@ const Resume = () => {
                 </MDBCol>
                 <MDBCol>
                 <MDBCard className="m-3">
-                <MDBCardTitle><h2 className='text-uppercase'>Resume</h2></MDBCardTitle>
+                <MDBCardTitle><h2 className='text-uppercase'>Résumé</h2></MDBCardTitle>
                     <MDBCardImage className="img-thumbnail rounded-pill card-picture my-5 mx-auto" position='top' src={resume} />
-                    <MDBCardBody>
-                        
+                    <MDBCardBody> 
                         <MDBCardText>
                             <p>{downloadIcon}</p>
                         </MDBCardText>
