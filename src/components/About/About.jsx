@@ -6,9 +6,9 @@ const About = () => {
     return (
         <MDBContainer fluid className='vh-100 bkgrd'>
             <div className="d-flex justify-content-center flex-column flex-sm-row">
-                <MDBCard className="order-sm-1 card-picture my-5 mx-auto mx-sm-3">
-                    <MDBCardImage variant="top" className='img-fluid rounded' src={headshot} alt='headshot' />
-                </MDBCard>
+                {/* <MDBCard className="order-sm-1 card-picture my-5 mx-auto mx-sm-3"> */}
+                    <MDBCardImage variant="top" className='img-fluid rounded-pill order-sm-1 card-picture my-5 mx-auto mx-sm-3' src={headshot} alt='headshot' />
+                {/* </MDBCard> */}
                 <MDBCard className="order-sm-2 my-4 card-text mx-auto mx-sm-3 bg-light">
                     <MDBCardBody>
                         <MDBCardTitle className='text-center text-uppercase'>About Me</MDBCardTitle>
