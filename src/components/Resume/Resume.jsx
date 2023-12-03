@@ -79,7 +79,7 @@ const Resume = () => {
                         </MDBCardText>
                     </MDBCardBody>
                     <MDBCardFooter className="text-center">
-                        <MDBBtn href={resumeUrl} download>Download</MDBBtn>
+                        <MDBBtn href={resumeUrl} download target="_blank">Download</MDBBtn>
                     </MDBCardFooter>
                 </MDBCard>
             </div>
