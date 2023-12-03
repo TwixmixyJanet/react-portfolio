@@ -12,7 +12,7 @@
     font-weight: bold;
 }
 
-.navbar-nav:hover, .navbar-nav:focus {
+.nav-link:hover, .nav-link:focus {
     color: rgb(29, 180, 252);
     font-weight: bold;
 }
