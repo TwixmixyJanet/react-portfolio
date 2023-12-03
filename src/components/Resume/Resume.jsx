@@ -13,7 +13,7 @@ import resume from '../../assets/images/resume.png';
 const Resume = () => {
     const resumeUrl = '';
     return (
-        <MDBContainer fluid className='vh-100 bkgrd'>
+        <MDBContainer fluid className='bkgrd'>
             <div className="d-flex justify-content-center">
                 <MDBCard className="w-35 m-3">
                     <MDBCardBody>
