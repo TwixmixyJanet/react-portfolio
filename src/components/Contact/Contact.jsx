@@ -12,8 +12,16 @@ const Contact = () => {
     };
 
     const onSubmit = (data) => {
+        
         console.log(data);
-        alert(JSON.stringify(data), "Message Sent!");
+        const message = JSON.stringify(data)
+        document.querySelector('.message-sent').innerHTML = `
+        <p class="text-dark">SUCCESS!<br />
+        Following message sent:<br />
+        ${message}<br />
+        Thank you for your message. I will follow up with you soon!
+        </p>
+        `;
     };
 
     return (
@@ -42,6 +50,8 @@ const Contact = () => {
                     <input type="submit" className="btn btn-primary mt-3" />
                 </form>
             </div>
+            <div className="d-flex w-100 justify-content-center mt-3">
+                <div className="message-sent"></div></div>
         </MDBContainer>
     )
 };
