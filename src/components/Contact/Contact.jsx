@@ -1,4 +1,3 @@
-import React from 'react';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import './Contact.css';
 import { useForm } from 'react-hook-form';
@@ -21,12 +20,12 @@ const Contact = () => {
         <MDBContainer fluid className='vh-100 bkgrd'>
             <div className="d-flex w-100 justify-content-center">
                 <form onSubmit={handleSubmit(onSubmit)} className="w-25 mt-4">
-                    <p className="my-0">Name</p>
+                    <p className="my-0 text-light">Name</p>
                     <input defaultValue={initialValues.senderName}
                     {...register("senderName", { required: true, minLength: 2, maxLength: 80 })}
                     className="w-100" />
                     {errors.senderName && <p className="text-danger mw-100">Name is required</p>}
-                    <p className="my-0">Email</p>
+                    <p className="my-0 text-light">Email</p>
                     <input defaultValue={initialValues.email}
                     {...register("email", { 
                         required: true, 
@@ -35,7 +34,7 @@ const Contact = () => {
                     })}
                     className='w-100' />
                     {errors.email && <p className="text-danger mw-100">Email is required</p>}
-                    <p className="my-0">Message</p>
+                    <p className="my-0 text-light">Message</p>
                     <input defaultValue={initialValues.message}
                     {...register("message", { required: true })}
                     className="w-100" />
