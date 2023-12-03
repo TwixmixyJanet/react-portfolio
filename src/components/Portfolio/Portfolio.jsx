@@ -26,15 +26,15 @@ const Portfolio = () => {
                     <MDBCard className="h-100">
                         <MDBCardImage className="img-thumbnail" position='top' src={project1}/>
                         <MDBCardBody>
-                            <MDBCardTitle>Project 1</MDBCardTitle>
+                            <MDBCardTitle>Critter Clicker</MDBCardTitle>
                             <MDBCardText>
-                                <p>Project 1 description</p>
-                                <p>Technologies used: HTML, CSS, JavaScript, jQuery, APIs</p>
+                                <p>A social media site to share pictures of your pets</p>
+                                <p>Technologies used: HTML, CSS, JavaScript, NodeJS, ExpressJS, Handlebars, Bootstrap, MySQL, Sequelize, Cloudinary, Heroku</p>
                             </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
-                            <MDBCardLink href=''>Repo Link</MDBCardLink>
-                            <MDBCardLink href=''>Deploy Link</MDBCardLink>
+                            <MDBCardLink href='https://github.com/mitsukaichi/critter-clicker'>Repo Link</MDBCardLink>
+                            <MDBCardLink href='https://critter-clicker-c6c973aed451.herokuapp.com/'>Deploy Link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
