@@ -18,7 +18,7 @@ const MyNav = () => {
 
     return (
         <>
-        <MDBNavbar expand='sm' dark className='p-4'>
+        <MDBNavbar expand='sm' dark className='p-5'>
             <MDBContainer fluid>
                 <MDBNavbarToggler type='button'
                 data-target='#navbarTogglerDemo01'
@@ -31,25 +31,25 @@ const MyNav = () => {
                 <MDBCollapse navbar show={showNavNoToggler}>
                 <MDBNavbarNav>
                     <LinkContainer to='/'>
-                        <MDBNavbarBrand href="#home">Janet Webster</MDBNavbarBrand>
+                        <MDBNavbarBrand href="#home" >Janet Webster</MDBNavbarBrand>
                     </LinkContainer>
-                    <LinkContainer to='/about'>
+                    <LinkContainer to='/about' className='p-2'>
                         <MDBNavbarItem>
                             <MDBNavbarLink href='#about'>About</MDBNavbarLink>
                         </MDBNavbarItem>
                         
                     </LinkContainer>
-                    <LinkContainer to='/portfolio'>
+                    <LinkContainer to='/portfolio' className='p-2'>
                         <MDBNavbarItem>
                             <MDBNavbarLink href='#portfolio'>Portfolio</MDBNavbarLink>
                         </MDBNavbarItem>
                     </LinkContainer>
-                    <LinkContainer to='/resume'>
+                    <LinkContainer to='/resume' className='p-2'>
                     <MDBNavbarItem>
                             <MDBNavbarLink href='#resume'>Résumé</MDBNavbarLink>
                         </MDBNavbarItem>
                     </LinkContainer>
-                    <LinkContainer to='/contact'>
+                    <LinkContainer to='/contact' className='p-2'>
                     <MDBNavbarItem>
                             <MDBNavbarLink href='#contact'>Contact</MDBNavbarLink>
                         </MDBNavbarItem>
