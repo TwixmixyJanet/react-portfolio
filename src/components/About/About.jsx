@@ -13,8 +13,8 @@ const About = () => {
                     <MDBCardBody>
                         <MDBCardTitle className='text-center text-uppercase'>About Me</MDBCardTitle>
                         <MDBCardText>
-                            <p>
-                            I'm a Full Stack MERN Software Engineer.<br />
+                            <p><code>I'm a Full Stack MERN Software Engineer.</code>
+                            <br />
                             <br />
                             📅📝👩‍💼 My background is in project management. I've been working in operations for over 8 years.
                             </p>
