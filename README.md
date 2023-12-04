@@ -76,13 +76,13 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ### Lessons Learned 
 
-#### 1. concurrently scripts
-In this challenge we were tasks to have multiple scripts run from our package.json. To accomplish this we used the concurrently NPM.
+#### 1. React & Vite
+It's kind of magic! I was simply and quickly able to setup a React site by using the `npm create vite@latest` script in my terminal and answering the prompts accordingly. From there it was all about customizing the content to my portfolio needs and running `npm i` to install all of my dependencies. Below are the instructions I followed to initiate my new project.
 <br />
 ![lesson 1](public/img/lesson1.png)
 
-#### 2. Webpack
-The webpack is the backbone of the PWA. It is a module bundler that plays a crucial role in streamlining the development and deployment of the web applications. It's a versatile toll that helps manage and optimize the various components of a PWA, including JavaScript modules, CSS files, and images.
+#### 2. React Router
+Continually I am working to wrap my head around routers to become a better back end developer. React helps to simplify this process. For this project I set up my routes in the main.jsx file.
 <br />
 ![lesson 2](public/img/lesson2.png)
 ![lesson 2](public/img/lesson2b.png)
