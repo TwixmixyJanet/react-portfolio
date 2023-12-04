@@ -1,5 +1,5 @@
-import MyNav from './components/Navigation/MyNav';
-import Footer from './components/Footer/Footer';
+import MyNav from './components/Navigation';
+import Footer from './components/Footer';
 import './App.css'
 
 import { Outlet } from 'react-router-dom';

@@ -5,10 +5,10 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Error from './components/Error';
 import Home from './components/Home';
-import Contact from './components/Contact/Contact';
+import Contact from './components/Contact';
 import About from './components/About';
-import Portfolio from './components/Portfolio/Portfolio';
-import Resume from './components/Resume/Resume';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 const router = createBrowserRouter([
   {
