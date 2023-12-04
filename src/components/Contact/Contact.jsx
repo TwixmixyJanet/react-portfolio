@@ -19,9 +19,9 @@ const Contact = () => {
         <p class="text-light">SUCCESS!<br />
         Following message sent:<br />
         ${message}<br />
-        Thank you for your message. I will follow up with you soon!
+        Thank you for your message. <br />I will follow up with you soon!
 
-        <br /><br />This form is currently not functional. Thanks for testing it out!
+        <br /><br />This form is currently not functional. <br />Thanks for testing it out!
         </p>
         `;
     };
