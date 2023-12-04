@@ -26,7 +26,7 @@ const MyNav = () => {
                 aria-expanded='false'
                 aria-label='Toggle navigation'
                 onClick={() => setShowNavNoToggler(!showNavNoToggler)}>
-                    <MDBIcon fas icon='bars' />
+                    <MDBIcon fas icon='bars' size='2x' />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={showNavNoToggler}>
                 <MDBNavbarNav className='d-flex flex-wrap align-items-center'>
