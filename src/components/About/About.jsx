@@ -4,7 +4,7 @@ import headshot from '../../assets/images/headshot.jpg';
 
 const About = () => {
     return (
-        <MDBContainer fluid className='vh-100 bkgrd'>
+        <MDBContainer fluid className='bkgrd'>
             <div className="d-flex justify-content-center flex-column flex-sm-row">
                 {/* <MDBCard className="order-sm-1 card-picture my-5 mx-auto mx-sm-3"> */}
                     <MDBCardImage variant="top" className='img-fluid rounded-pill order-sm-1 card-picture my-5 mx-auto mx-sm-3' src={headshot} alt='headshot' />
