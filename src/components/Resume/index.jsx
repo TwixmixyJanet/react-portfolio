@@ -11,13 +11,6 @@ import {
     MDBCol
 } from 'mdb-react-ui-kit';
 import resume from '../../assets/images/resume.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-const downloadIcon = () => {
-    return (
-      <FontAwesomeIcon icon="fa-solid fa-download" />
-    );
-  };
 
 const Resume = () => {
     const resumeUrl = 'https://drive.google.com/file/d/1fyk6UEzhQw5PtoAYv6Ymtxsua_sFBljL/view?usp=sharing';
@@ -87,11 +80,6 @@ const Resume = () => {
                 <MDBCard className="m-3">
                 <MDBCardTitle><h2 className='text-uppercase'>Résumé</h2></MDBCardTitle>
                     <MDBCardImage className="img-thumbnail rounded-pill card-picture my-5 mx-auto" position='top' src={resume} />
-                    <MDBCardBody> 
-                        <MDBCardText>
-                            <p>{downloadIcon}</p>
-                        </MDBCardText>
-                    </MDBCardBody>
                     <MDBCardFooter className="text-center">
                         <MDBBtn href={resumeUrl} download target="_blank">Download</MDBBtn>
                     </MDBCardFooter>

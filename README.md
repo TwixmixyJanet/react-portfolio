@@ -82,23 +82,23 @@ It's kind of magic! I was simply and quickly able to setup a React site by using
 ![lesson 1](public/img/lesson1.png)
 
 #### 2. React Router
-Continually I am working to wrap my head around routers to become a better back end developer. React helps to simplify this process. For this project I set up my routes in the main.jsx file. 
+Continually I am working to wrap my head around routers to become a better back end developer. React helps to simplify this process. For this project I set up my routes in the main.jsx and App.jsx files. To me the React handling of routers in the DOM is much simpler than how we have previously had to set them up.
 <br />
 ![lesson 2](public/img/lesson2.png)
-![lesson 2](public/img/lesson2b.png)
 
-#### 3. Service Workers
-SWs are scripts that run in the background, separate from the main web page. They act as an intermediary between the web app and the network, providing several benefits for PWAs.
+#### 3. import {images} and other things
+With the introduction of using import recently we really go full-on with it in React. I utilized this to do things like import images. This way I could reference the file in JSX.
 <br />
 ![lesson 3](public/img/lesson3.png)
 
-#### 4. Local Install
-Local installation of PWAs allows users to add these web apps to their devices just like native apps. This provides benefits like easy access to the application, offline accessibility, and push notifications.
+#### 4. Material Design for Bootstrap
+Besides learning Vote+React, the biggest thing I learned to work with was the MDB. I used this to implement the UI throughout the site. It is used on almost every level of the application. The most robust use of it is the Portfolio page. I definitely invested a lot of time tinkering to get things to flex/flow and display how I wanted them to.
 <br />
 ![lesson 4](public/img/lesson4.png)
+![lesson 4](public/img/lesson4b.png)
 
 #### Synopsis
-For me, this was one of the most frustrating projects so far. I learned a lot and if I need to create PWAs going forward I have a solid foundation of knowledge now to do so.
+I enjoy making portfolios. To me they are very straight forward projects. Although I did find figuring out React, how to lay it out, and how to style it confounding at times it was very gratifying to see everything function in the end.
 
 ## Installation
 
@@ -112,7 +112,7 @@ For me, this was one of the most frustrating projects so far. I learned a lot an
 
 ## Usage
 
-This is a on and off-line text editor application. If you would like to update and use app follow the installation steps and curate it to your needs. If you would like to use this app, follow the steps under the description 'How to' above and click the link at the top of this page.
+This project is my full stack MERN software engineer portfolio. If you would like to update and use app follow the installation steps and curate it to your needs. If you would like to use this app, follow the steps under the description 'How to' above and click the link at the top of this page.
 
 ## License
 
@@ -123,7 +123,7 @@ Copyright (c) 2023 Twixmixy / Janet Webster
 
 ## About
 ### Janet Webster
-Full Stack MERN Software Engineer in training.
+Full Stack MERN Software Engineer
 
 - [GitHub](https://github.com/TwixmixyJanet/)
 - [LinkedIn](https://www.linkedin.com/in/twixmixy/)
