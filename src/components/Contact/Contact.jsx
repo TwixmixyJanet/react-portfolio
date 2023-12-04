@@ -16,7 +16,7 @@ const Contact = () => {
         console.log(data);
         const message = JSON.stringify(data)
         document.querySelector('.message-sent').innerHTML = `
-        <p class="text-light">SUCCESS!<br />
+        <p class="text-light font-size-12px">SUCCESS!<br />
         Following message sent:<br />
         ${message}<br />
         Thank you for your message. <br />I will follow up with you soon!
