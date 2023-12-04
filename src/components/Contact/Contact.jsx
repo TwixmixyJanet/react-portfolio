@@ -16,10 +16,12 @@ const Contact = () => {
         console.log(data);
         const message = JSON.stringify(data)
         document.querySelector('.message-sent').innerHTML = `
-        <p class="text-dark">SUCCESS!<br />
+        <p class="text-light">SUCCESS!<br />
         Following message sent:<br />
         ${message}<br />
         Thank you for your message. I will follow up with you soon!
+
+        <br /><br />This form is currently not functional. Thanks for testing it out!
         </p>
         `;
     };
