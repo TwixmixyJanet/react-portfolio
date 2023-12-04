@@ -21,14 +21,14 @@ const MyNav = () => {
         <MDBNavbar expand='sm' dark className='p-5'>
             <MDBContainer fluid>
                 <MDBNavbarToggler type='button'
-                data-target='#navbarTogglerDemo01'
-                aria-controls='navbarTogglerDemo01'
+                data-target='#navbar'
+                aria-controls='navbar'
                 aria-expanded='false'
                 aria-label='Toggle navigation'
                 onClick={() => setShowNavNoToggler(!showNavNoToggler)}>
                     <MDBIcon fas icon='bars' />
                 </MDBNavbarToggler>
-                <MDBCollapse navbar show={showNavNoToggler}>
+                <MDBCollapse navbar open={showNavNoToggler}>
                 <MDBNavbarNav>
                     <LinkContainer to='/'>
                         <MDBNavbarBrand href="#home" >Janet Webster</MDBNavbarBrand>
