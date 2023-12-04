@@ -82,7 +82,7 @@ It's kind of magic! I was simply and quickly able to setup a React site by using
 ![lesson 1](public/img/lesson1.png)
 
 #### 2. React Router
-Continually I am working to wrap my head around routers to become a better back end developer. React helps to simplify this process. For this project I set up my routes in the main.jsx file.
+Continually I am working to wrap my head around routers to become a better back end developer. React helps to simplify this process. For this project I set up my routes in the main.jsx file. 
 <br />
 ![lesson 2](public/img/lesson2.png)
 ![lesson 2](public/img/lesson2b.png)

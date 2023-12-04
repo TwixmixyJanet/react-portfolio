@@ -2,11 +2,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-
-// import Error from './pages/Error';
+import Error from './components/Error';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
@@ -17,7 +14,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <Error />, - not needed right now
+    errorElement: <Error />,
     children: [
       {
         index: true,
@@ -42,7 +39,6 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
