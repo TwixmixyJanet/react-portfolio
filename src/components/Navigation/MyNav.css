@@ -16,3 +16,9 @@
     color: rgb(29, 180, 252);
     font-weight: bold;
 }
+
+/* @media (max-width: 600px) {
+    .navbar {
+        display:none;
+       }
+} */

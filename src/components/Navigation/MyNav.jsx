@@ -18,8 +18,8 @@ const MyNav = () => {
 
     return (
         <>
-        <MDBNavbar expand='sm' dark className='p-5'>
-            <MDBContainer fluid>
+        <MDBNavbar expand='md' dark className='p-5'>
+            <MDBContainer className='d-flex flex-wrap justify-content-center align-items-center'>
                 <MDBNavbarToggler type='button'
                 data-target='#navbar'
                 aria-controls='navbar'
@@ -29,7 +29,7 @@ const MyNav = () => {
                     <MDBIcon fas icon='bars' />
                 </MDBNavbarToggler>
                 <MDBCollapse navbar open={showNavNoToggler}>
-                <MDBNavbarNav>
+                <MDBNavbarNav className='d-flex flex-wrap align-items-center'>
                     <LinkContainer to='/'>
                         <MDBNavbarBrand href="#home" >Janet Webster</MDBNavbarBrand>
                     </LinkContainer>
