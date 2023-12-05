@@ -10,19 +10,33 @@ import {
     MDBRow,
     MDBCol
 } from 'mdb-react-ui-kit';
+// Importing the 'resume.png' image from the 'assets/images' directory
 import resume from '../../assets/images/resume.png';
 
+
+// Functional component representing the Resume section of the application
 const Resume = () => {
+    // URL to the resume file on Google Drive
     const resumeUrl = 'https://drive.google.com/file/d/1fyk6UEzhQw5PtoAYv6Ymtxsua_sFBljL/view?usp=sharing';
+
     return (
+        // MDBContainer for a fluid container with a custom background class ('bkgrd')
         <MDBContainer fluid className='h-100 pb-4 bkgrd'>
+            {/* MDBRow for a responsive row layout with two columns on medium screens */}
             <MDBRow className="row-cols-1 row-cols-md-2 g-3 pt-2">
+                {/* First column for displaying skills */}
                 <MDBCol>
-                <MDBCard className="m-3">
-                <MDBCardTitle><h2 className='text-uppercase'>Skills</h2></MDBCardTitle>
-                    <MDBCardBody>
+                    {/* MDBCard representing the Skills section */}
+                    <MDBCard className="m-3">
+                        {/* MDBCardTitle for the section title */}
+                        <MDBCardTitle><h2 className='text-uppercase'>Skills</h2></MDBCardTitle>
                         
-                        <MDBCardText className='d-flex flex-wrap justify-content-center align-items-center'>
+                        {/* MDBCardBody for the card content */}
+                        <MDBCardBody>
+                            {/* MDBCardText for displaying a list of skills */}
+                            <MDBCardText className='d-flex flex-wrap justify-content-center align-items-center'>
+                                {/* Skills displayed as buttons */}
+                                {/* ... (List of skills) */}
                             <div>
                                 <MDBBtn className='m-1'>JavaScript</MDBBtn>
                                 <MDBBtn className='m-1'>MongoDB</MDBBtn>
@@ -76,18 +90,27 @@ const Resume = () => {
                     </MDBCardBody>
                 </MDBCard>
                 </MDBCol>
-                <MDBCol>
-                <MDBCard className="m-3">
-                <MDBCardTitle><h2 className='text-uppercase'>Résumé</h2></MDBCardTitle>
-                    <MDBCardImage className="img-thumbnail rounded-pill card-picture my-5 mx-auto" position='top' src={resume} />
-                    <MDBCardFooter className="text-center">
-                        <MDBBtn href={resumeUrl} download target="_blank">Download</MDBBtn>
-                    </MDBCardFooter>
-                </MDBCard>
+               {/* Second column for displaying the resume and download link */}
+               <MDBCol>
+                    {/* MDBCard representing the Résumé section */}
+                    <MDBCard className="m-3">
+                        {/* MDBCardTitle for the section title */}
+                        <MDBCardTitle><h2 className='text-uppercase'>Résumé</h2></MDBCardTitle>
+                        
+                        {/* MDBCardImage for displaying the resume image */}
+                        <MDBCardImage className="img-thumbnail rounded-pill card-picture my-5 mx-auto" position='top' src={resume} />
+                        
+                        {/* MDBCardFooter for the download link */}
+                        <MDBCardFooter className="text-center">
+                            {/* MDBBtn for the download link with the resume URL */}
+                            <MDBBtn href={resumeUrl} download target="_blank">Download</MDBBtn>
+                        </MDBCardFooter>
+                    </MDBCard>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
     )
 };
 
+// Export the 'Resume' component
 export default Resume;
