@@ -12,7 +12,7 @@ function App() {
   return (
     <>
         <MyNav />
-        <main >
+        <main>
           <Outlet />
         </main>
         <Footer />

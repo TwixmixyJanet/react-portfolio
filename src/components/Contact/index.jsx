@@ -27,7 +27,7 @@ const Contact = () => {
     };
 
     return (
-        <MDBContainer fluid className='vh-100 bkgrd'>
+        <MDBContainer fluid className='min-vh bkgrd'>
             <div className="d-flex w-100 justify-content-center">
                 <form onSubmit={handleSubmit(onSubmit)} className="w-50 mt-4">
                     {/* <p className="my-0 text-light">Name</p> */}

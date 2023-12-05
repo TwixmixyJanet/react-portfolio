@@ -17,3 +17,7 @@
     max-width: calc(100% - 20px);
     padding: 2px;
 }
+
+.min-vh {
+    min-height: 75vh;
+}

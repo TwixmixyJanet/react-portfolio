@@ -10,8 +10,8 @@ const ErrorPage = () => {
   return (
     <>
     <MyNav />
-    <MDBContainer fluid className="text-center bkgrd">
-    <div id="error-page">
+    <MDBContainer fluid className="text-center min-vh bkgrd">
+    <div id="error-page" className='p-5'>
       <h1>Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>
