@@ -17,26 +17,44 @@ import project4 from '../../assets/images/project4.png';
 import project5 from '../../assets/images/project5.png';
 import project6 from '../../assets/images/project6.png';
 
+// Functional component representing the portfolio section of the application
 const Portfolio = () => {
     return (
+        // MDBContainer for a fluid container with a custom background class ('bkgrd')
         <MDBContainer fluid className="h-100 pb-4 bkgrd">
+            {/* MDBRow for a responsive row layout with three columns on medium screens */}
             <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
+                {/* MDBCol for a column in the row */}
                 <MDBCol>
+                    {/* MDBCard representing the first portfolio item */}
                     <MDBCard className="h-100">
+                        {/* MDBCardImage for the thumbnail image of the project */}
                         <MDBCardImage className="img-thumbnail" position='top' src={project1}/>
+                        
+                        {/* MDBCardBody for the card content */}
                         <MDBCardBody>
+                            {/* MDBCardTitle for the project title */}
                             <MDBCardTitle>Critter Clicker</MDBCardTitle>
+                            
+                            {/* MDBCardText for project description and technologies used */}
                             <MDBCardText>
+                                {/* Description and technologies used for the project */}
                                 <p>A social media site to share pictures of your pets</p>
                                 <p>Technologies used: HTML, CSS, JavaScript, NodeJS, ExpressJS, Handlebars, Bootstrap, MySQL, Sequelize, Cloudinary, Heroku</p>
                             </MDBCardText>
                         </MDBCardBody>
+
+                        {/* MDBCardFooter for links related to the project */}
                         <MDBCardFooter className="text-center">
+                            {/* Link to the project's GitHub repository */}
                             <MDBCardLink href='https://github.com/mitsukaichi/critter-clicker'>Repo Link</MDBCardLink>
+                            
+                            {/* Link to the deployed version of the project */}
                             <MDBCardLink href='https://critter-clicker-c6c973aed451.herokuapp.com/'>Deploy Link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
+                {/* Additional portfolio items (similar structure) same as above */}
                 <MDBCol>
                     <MDBCard className="h-100">
                         <MDBCardImage className="img-thumbnail" position='top' src={project2}/>
@@ -122,4 +140,5 @@ const Portfolio = () => {
     )
 };
 
+// Export the 'Portfolio' component
 export default Portfolio;
