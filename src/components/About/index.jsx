@@ -23,7 +23,7 @@ const About = () => {
                         {/* Title for the 'About Me' section */}
                         <MDBCardTitle className='text-center text-uppercase'>About Me</MDBCardTitle>
 
-                        {/* Main text content with details about the individual */}
+                        {/* Main text content with details about me */}
                         <MDBCardText>
                             <p><code>I'm a Full Stack MERN Software Engineer.</code>
                             <br />
