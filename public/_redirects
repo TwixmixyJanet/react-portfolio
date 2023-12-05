@@ -1,3 +1,2 @@
-# Redirect all errors to a specific page
-/*    /components/error/index.jsx   404
-
+/*    /index.html   404
+/*    /index.html   200
