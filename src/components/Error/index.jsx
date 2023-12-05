@@ -1,11 +1,15 @@
 import { useRouteError } from 'react-router-dom';
 import { MDBContainer } from 'mdb-react-ui-kit';
+import MyNav from '../Navigation';
+import Footer from '../Footer';
 
 const ErrorPage = () => {
   const error = useRouteError();
   console.error(error);
 
   return (
+    <>
+    <MyNav />
     <MDBContainer fluid className="text-center bkgrd">
     <div id="error-page">
       <h1>Oops!</h1>
@@ -15,6 +19,8 @@ const ErrorPage = () => {
       </p>
     </div>
     </MDBContainer>
+    <Footer />
+    </>
   );
 }
 
