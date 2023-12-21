@@ -24,7 +24,7 @@
 * [About](#about)
 
 ## Description:
-This project is my full stack MERN software engineer portfolio. Using Vite+React to build this application with the addition of Material Design for Bootstrap for the UI.<br />
+This project is my full stack MERN software engineer portfolio. Using Vite+React to build this application with the addition of Material Design for Bootstrap for the UI.<br /> 
 <br />
 
 ### How to use this app:
