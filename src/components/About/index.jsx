@@ -26,11 +26,11 @@ const About = () => {
                         {/* Main text content with details about me */}
                         <MDBCardText>
                             <p><code>I'm a Full Stack MERN Software Engineer.</code></p>
-                            <p><br />
-                            <br />
-                            📅📝👩‍💼 My background is in project management. I've been working in operations for over 8 years.</p>
                             <p>
                             👩🏻‍💻🛠️🚀I got into coding when I was a teenager and am now returning to my roots in all things nerdy by acquiring my <code>Full Stack MERN certification through UC Berkeley</code> and my <code>Front End Dev certification through Skillcrush</code>.
+                            </p>
+                            <p>
+                            📅📝👩‍💼 My background is in project management. I've been working in operations for over 8 years.
                             </p>
                             <p>
                             🛼✌️🗳️Outside of professional endeavors I like to play roller derby with Charlotte Roller Derby, coach women and girls with Foundation For Girls, and contribute to my local community by getting out the vote.
