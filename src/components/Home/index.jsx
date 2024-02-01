@@ -11,7 +11,7 @@ const Home = () => {
                 <h1 className="display-1 text-light p-4">Janet Webster</h1>
 
                 {/* Display the job title in a smaller font size with light text color */}
-                <h2 className="display-5 text-light">Full Stack MERN Software Engineer</h2>
+                <h2 className="display-5 text-light">Software Engineer</h2>
             </div>
 
             {/* Display an image with a rounded-pill style, shadow, and margin */}

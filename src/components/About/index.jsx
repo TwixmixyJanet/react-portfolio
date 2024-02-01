@@ -25,11 +25,10 @@ const About = () => {
 
                         {/* Main text content with details about me */}
                         <MDBCardText>
-                            <p><code>I'm a Full Stack MERN Software Engineer.</code>
+                            <p><code>I'm a Full Stack MERN Software Engineer.</code></p>
+                            <p><br />
                             <br />
-                            <br />
-                            📅📝👩‍💼 My background is in project management. I've been working in operations for over 8 years.
-                            </p>
+                            📅📝👩‍💼 My background is in project management. I've been working in operations for over 8 years.</p>
                             <p>
                             👩🏻‍💻🛠️🚀I got into coding when I was a teenager and am now returning to my roots in all things nerdy by acquiring my <code>Full Stack MERN certification through UC Berkeley</code> and my <code>Front End Dev certification through Skillcrush</code>.
                             </p>
