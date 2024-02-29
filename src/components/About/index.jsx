@@ -41,9 +41,10 @@ const About = () => {
             <MDBCardText>
               <p>
                 I am a Software Engineer with a Full Stack MERN Certificate from
-                UC Berkeley{" "}
+                UC Berkeley <br />
                 <code>
-                  const MERN = ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"]{" "}
+                  const MERN = ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"]
+                  <br />
                 </code>
                 Front End Developer Certified from Skillcrush <br />
                 18 years of experience in the tech industry <br />
